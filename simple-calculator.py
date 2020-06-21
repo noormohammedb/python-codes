@@ -9,6 +9,6 @@ elif oparator == "-" :
 elif oparator == "*" :
     print(oprant1*oprant2)
 elif oparator == "/" :
-    print(oprant1/oprant2
+    print(oprant1/oprant2)
 else :
-    print("Invalid \n")
+    print("Invalid")
