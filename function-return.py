@@ -1,10 +1,10 @@
 def inp():
-    return input("enter a number : ")
+    return input("enter a number :  ")
 
 glbvar1 = inp() 
 glbvar2 = inp()
 
 def sum():
-    return glbvar1+glbvar2
+    return int(glbvar1)+int(glbvar2)
 
 print(sum())
