@@ -11,9 +11,24 @@ main()"""
 
 # Function with no argument and a return value
 
-print("enter 2 number")
+"""print("enter 2 number")
 def main():
     fnumber = int(input("1. : "))
     snumber = int(input("2. : "))
     return fnumber+snumber
-print("sum = ",main())
+print("sum = ",main())"""
+
+
+
+
+# Function with no argument and a return value
+
+
+print("enter 2 number ")
+
+def main(arg1,arg2):
+    print("sum = ",arg1+arg2)
+
+num1 = int(input("1. : "))
+num2 = int(input("2. : "))
+main(num1,num2)
